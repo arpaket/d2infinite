@@ -1,0 +1,17 @@
+{
+  "name": "d2infinite",
+  "version": "1.0.0",
+  "description": "ตัวอย่างเว็บไซต์แคตตาล็อกสินค้าพร้อม Frontend และ Backend",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "catalog",
+    "product",
+    "thailand"
+  ],
+  "author": "",
+  "license": "ISC"
+}

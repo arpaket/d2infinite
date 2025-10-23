@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "กล้องถ่ายรูป Mirrorless",
+    "description": "กล้องถ่ายรูปความละเอียด 24MP พร้อมเลนส์ชุดเริ่มต้น",
+    "price": 22990,
+    "currency": "THB",
+    "category": "อิเล็กทรอนิกส์",
+    "imageUrl": "https://images.unsplash.com/photo-1519183071298-a2962be90b8e?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 2,
+    "name": "รองเท้าวิ่ง Carbon X",
+    "description": "รองเท้าวิ่งดีไซน์เบา รองรับแรงกระแทกสูง",
+    "price": 4590,
+    "currency": "THB",
+    "category": "กีฬา",
+    "imageUrl": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 3,
+    "name": "สมุดโน้ต Recycled",
+    "description": "สมุดโน้ตทำจากกระดาษรีไซเคิล 100%",
+    "price": 120,
+    "currency": "THB",
+    "category": "อุปกรณ์สำนักงาน",
+    "imageUrl": "https://images.unsplash.com/photo-1487611459768-bd414656ea10?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 4,
+    "name": "เสื้อเชิ้ตลินิน",
+    "description": "เสื้อเชิ้ตผ้าลินินระบายอากาศสำหรับหน้าร้อน",
+    "price": 890,
+    "currency": "THB",
+    "category": "แฟชั่น",
+    "imageUrl": "https://images.unsplash.com/photo-1525171254930-643fc658b64e?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 5,
+    "name": "หูฟังตัดเสียงรบกวน",
+    "description": "หูฟังไร้สายพร้อมระบบตัดเสียงรบกวนแบบแอคทีฟ",
+    "price": 6990,
+    "currency": "THB",
+    "category": "อิเล็กทรอนิกส์",
+    "imageUrl": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 6,
+    "name": "เสื่อโยคะ Eco-Grip",
+    "description": "เสื่อโยคะผลิตจากยางธรรมชาติ ยึดเกาะดีเยี่ยม",
+    "price": 1590,
+    "currency": "THB",
+    "category": "กีฬา",
+    "imageUrl": "https://images.unsplash.com/photo-1548691407-2896e7541a28?auto=format&fit=crop&w=500&q=80"
+  }
+]

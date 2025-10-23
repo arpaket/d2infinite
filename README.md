@@ -1,7 +1,33 @@
-# in your project folder
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/arpaket/d2infinite.git
-git push -u origin main
+# แคตตาล็อกสินค้า (ตัวอย่าง)
+
+โปรเจกต์ตัวอย่างที่ประกอบด้วย Backend และ Frontend สำหรับแสดงแคตตาล็อกสินค้า สามารถแบ่งหมวดหมู่และค้นหาสินค้าได้
+
+## โครงสร้างโปรเจกต์
+
+```
+├── data
+│   └── products.json        # ข้อมูลสินค้า
+├── public
+│   ├── index.html           # หน้าเว็บหลัก
+│   ├── styles.css           # ส่วนตกแต่งหน้าเว็บ
+│   └── app.js               # ฟังก์ชันฝั่งผู้ใช้ (Frontend)
+├── src
+│   └── server.js            # เซิร์ฟเวอร์ Node.js แบบง่าย
+└── package.json
+```
+
+## การใช้งาน
+
+1. ติดตั้ง Node.js (เวอร์ชัน 16 ขึ้นไป)
+2. รันคำสั่ง
+
+```bash
+npm start
+```
+
+3. เปิดเบราว์เซอร์และเข้าใช้งานที่ [http://localhost:3000](http://localhost:3000)
+
+## API
+
+- `GET /api/products` - คืนข้อมูลสินค้าทั้งหมด สามารถระบุ `?category=ชื่อหมวดหมู่` เพื่อกรองได้
+- `GET /api/categories` - คืนรายการหมวดหมู่สินค้าที่มีอยู่
